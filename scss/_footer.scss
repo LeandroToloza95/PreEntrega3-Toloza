@@ -1,0 +1,86 @@
+/* Formato de Footer */
+
+.Contenedor__footer {
+    width: 100%;
+    height: 110px;
+    background-color: #92beed;
+    border-radius: 8%;
+    border-top: 3px solid #be03ff;
+    border-bottom: 3px solid #be03ff;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    justify-items: center;
+    align-items: center;
+    .footer__imagen{
+        width: 100px;
+        display: inline-block;
+        border: 2px solid #000;
+        padding: 10px;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        background-color: #000;
+        border-radius: 20%;
+        .Logo {
+            position: relative;
+            height: 65px;
+        }
+    }
+
+    .pie {
+        display: grid;
+        grid-template-columns: 30% 70%;
+        justify-items: center;
+        align-items: center;
+        .Item-Icono {
+            display: inline;
+            width: 20px;
+        }
+        .pie__titulo_redes_sociales{
+            color:#be03ff;
+            font-size: 1.2rem;   
+            font-weight: bold; 
+            text-align: center;
+            font-family: 'Satisfy', cursive;
+        }
+        .pie__redes_sociales{
+            display: grid;
+            grid-template-columns: 33% 33% 33%;
+            justify-items: center;
+            align-items: center;
+            .pie__redes_sociales__contenido{
+                width: 100%;
+                text-align: center;
+                a {
+
+                    width: 100%;
+                    width: 100%;
+                    text-align:  center;
+                    color:#be03ff;
+
+
+                    @media only screen and (min-width: 600px) {
+                    width: 100%;
+                    text-align:  center;
+                    color:#be03ff;
+                    font-size: 1rem;
+                    font-family: 'Satisfy', cursive;
+                    text-decoration: none;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    }
+                    .Item-Icono__texto{
+                    @media only screen and (max-width: 600px) {
+                        display: none;
+
+
+                        }
+                    }
+            }
+    }
+    }
+}
+
+
+}

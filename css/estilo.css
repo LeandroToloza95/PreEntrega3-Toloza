@@ -1,0 +1,246 @@
+@charset "UTF-8";
+/* Formato imagen de fondo*/
+.Fondo1 {
+  margin: 0;
+  width: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
+/* Formato de Header */
+.Alerta {
+  height: 40px;
+  padding: 2px;
+  box-sizing: border-box;
+  border: 4px dotted rgb(176, 14, 14);
+  font-weight: bold;
+  font-family: "Satisfy", cursive;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.Aviso {
+  display: block;
+  color: rgb(176, 14, 14);
+}
+
+nav {
+  width: 100%;
+}
+nav .container-fluid {
+  background-color: #92beed;
+  border-radius: 8%;
+  border-top: 3px solid #be03ff;
+  border-bottom: 3px solid #be03ff;
+}
+nav div .navbar-brand {
+  color: #be03ff;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "Satisfy", cursive;
+}
+nav div .navbar-collapse {
+  justify-content: flex-end;
+}
+nav div .navbar-collapse ul li a {
+  color: #be03ff;
+  font-size: 1rem;
+  text-align: center;
+  font-family: "Satisfy", cursive;
+}
+
+/* Formato de Footer */
+.Contenedor__footer {
+  width: 100%;
+  height: 110px;
+  background-color: #92beed;
+  border-radius: 8%;
+  border-top: 3px solid #be03ff;
+  border-bottom: 3px solid #be03ff;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  justify-items: center;
+  align-items: center;
+}
+.Contenedor__footer .footer__imagen {
+  width: 100px;
+  display: inline-block;
+  border: 2px solid #000;
+  padding: 10px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background-color: #000;
+  border-radius: 20%;
+}
+.Contenedor__footer .footer__imagen .Logo {
+  position: relative;
+  height: 65px;
+}
+.Contenedor__footer .pie {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  justify-items: center;
+  align-items: center;
+}
+.Contenedor__footer .pie .Item-Icono {
+  display: inline;
+  width: 20px;
+}
+.Contenedor__footer .pie .pie__titulo_redes_sociales {
+  color: #be03ff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Satisfy", cursive;
+}
+.Contenedor__footer .pie .pie__redes_sociales {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  justify-items: center;
+  align-items: center;
+}
+.Contenedor__footer .pie .pie__redes_sociales .pie__redes_sociales__contenido {
+  width: 100%;
+  text-align: center;
+}
+.Contenedor__footer .pie .pie__redes_sociales .pie__redes_sociales__contenido a {
+  width: 100%;
+  width: 100%;
+  text-align: center;
+  color: #be03ff;
+}
+@media only screen and (min-width: 600px) {
+  .Contenedor__footer .pie .pie__redes_sociales .pie__redes_sociales__contenido a {
+    width: 100%;
+    text-align: center;
+    color: #be03ff;
+    font-size: 1rem;
+    font-family: "Satisfy", cursive;
+    text-decoration: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .Contenedor__footer .pie .pie__redes_sociales .pie__redes_sociales__contenido a .Item-Icono__texto {
+    display: none;
+  }
+}
+
+/* Formato imagen pagina index*/
+.Logosecundario {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+@media only screen and (min-width: 600px) {
+  .Logosecundario .Fondo2 {
+    width: 500px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .Logosecundario .Fondo2 {
+    width: 100%;
+  }
+}
+
+/* Formato Carrousel imagenes*/
+main {
+  text-align: center;
+  display: inline;
+  width: 70%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+@media only screen and (max-width: 600px) {
+  main {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+main .Titulo-Productos {
+  color: #be03ff;
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: "Satisfy", cursive;
+  padding-bottom: 40px;
+}
+@media only screen and (max-width: 600px) {
+  main .Titulo-Productos {
+    font-size: 1.5rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+main .div {
+  text-align: center;
+}
+
+/* Formato exposición de varias imagenes */
+.Principal {
+  text-align: center;
+}
+.Principal .Contenedor-Grande {
+  margin: auto;
+  display: flex;
+  width: 80%;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #000;
+  border-radius: 50px;
+}
+.Principal .Contenedor-Grande .Contenedor-Item {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  align-content: center;
+  justify-content: space-between;
+}
+.Principal .Contenedor-Grande .Contenedor-Item .Item-Producto {
+  width: 100%;
+  margin: auto;
+}
+
+/* Formato de formulario */
+main {
+  margin: auto;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: stretch;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+.container .Form1 {
+  width: 450px;
+  display: inline;
+  margin: auto;
+  padding: 20px;
+  color: #fff;
+  font-size: 1rem;
+  font-family: "Satisfy", cursive;
+  background-color: #92beed;
+  border-radius: 20px;
+}
+.container .Form1 .item-1 {
+  width: 80%;
+  margin: auto;
+}
+.container .Form1 .item-1 Iframe {
+  width: 100%;
+}
+
+div {
+  width: 100%;
+}
+
+/*# sourceMappingURL=estilo.css.map */

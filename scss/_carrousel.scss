@@ -1,0 +1,32 @@
+/* Formato Carrousel imagenes*/
+
+main { 
+    text-align: center;
+    display: inline;
+    width: 70%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    @media only screen and (max-width: 600px) {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        
+    }
+    .Titulo-Productos{
+        color:#be03ff;
+        font-size: 3rem;
+        font-weight: bold;  
+        font-family: 'Satisfy', cursive;
+        padding-bottom: 40px;
+        @media only screen and (max-width: 600px) {
+            font-size: 1.5rem;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            }
+        
+    }
+    .div {
+
+        
+        text-align: center;
+    }
+}

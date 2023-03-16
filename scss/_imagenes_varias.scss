@@ -1,0 +1,28 @@
+/* Formato exposición de varias imagenes */
+.Principal{
+    text-align: center;
+    .Contenedor-Grande{
+        margin: auto;
+        display: flex;
+        width: 80%;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;  
+        flex-wrap: wrap;
+        background-color: #000;
+        border-radius: 50px;
+        .Contenedor-Item{
+            
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            margin: 20px;
+            align-content: center;
+            justify-content: space-between;  
+            .Item-Producto{
+                width: 100%;
+                margin: auto;
+            }
+        }
+    }
+}

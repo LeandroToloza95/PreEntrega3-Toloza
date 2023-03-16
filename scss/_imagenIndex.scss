@@ -1,0 +1,14 @@
+/* Formato imagen pagina index*/
+.Logosecundario{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    .Fondo2 {
+        @media only screen and (min-width: 600px){
+            width:500px; ;
+        }
+        @media only screen and (max-width: 600px){
+            width:100%;
+        }
+    }
+}

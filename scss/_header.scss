@@ -1,0 +1,54 @@
+/* Formato de Header */
+
+
+.Alerta {
+    height: 40px;
+    padding: 2px;
+    box-sizing: border-box;
+    border: 4px dotted rgb(176, 14, 14);
+    font-weight: bold;
+    font-family: 'Satisfy', cursive;
+    display: flex;
+    align-content: center;
+    justify-content: center;    
+}
+
+.Aviso {
+    display: block;
+    color:rgb(176, 14, 14);
+}
+
+
+nav {
+    width: 100%;
+    .container-fluid{
+        background-color: #92beed;
+        border-radius: 8%;
+        border-top: 3px solid #be03ff;
+        border-bottom: 3px solid #be03ff;
+    }
+
+    div{
+        .navbar-brand{
+            color:#be03ff;
+            font-size: 2rem;
+            font-weight: bold;   
+            font-family: 'Satisfy', cursive;   
+        }
+        .navbar-collapse {
+            justify-content: flex-end;                       
+            ul {
+
+                li{
+                    
+                    a{
+                        color:#be03ff;
+                        font-size:1rem;
+                        text-align: center;
+                        font-family: 'Satisfy', cursive;
+                    }
+                }
+            }
+        }
+    }
+}

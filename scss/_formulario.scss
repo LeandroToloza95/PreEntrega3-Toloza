@@ -1,0 +1,33 @@
+/* Formato de formulario */
+main{
+    margin:auto;
+}
+.container{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: space-around;
+    margin-bottom: 40px;
+
+    .Form1{
+        
+        width: 450px;
+        display: inline;
+        margin: auto ;
+        padding: 20px ;
+        color: #fff;
+        font-size: 1rem; 
+        font-family: 'Satisfy', cursive;  
+        background-color: #92beed;
+        border-radius: 20px;
+
+        .item-1{
+            width: 80%;
+            margin: auto;
+            Iframe{
+                width: 100%;
+            }
+        }
+    }
+}
